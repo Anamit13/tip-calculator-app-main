@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/Anamit13/tip-calculator-app-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Hosted Website](https://anamit13.github.io/tip-calculator-app-main/)
 
 ## My process
 1. After getting the task first I checked the design part that what I need to develop.
