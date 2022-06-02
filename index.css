@@ -1,0 +1,237 @@
+* {
+    padding : 0;
+    margin: 0;
+}
+
+body {
+    background-color:  hsl(185, 41%, 84%);
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-block: 50px;
+}
+
+.container {
+    background-color : #fff;
+    border-radius : 20px;
+}
+
+.first {
+    padding : 30px;
+}
+
+.label {
+    font-family: 'Space Mono',sans-serif;
+    font-size: 14px;
+    color : hsl(186, 14%, 43%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.inputbill {
+    position: relative;
+}
+
+.inputbill > input {
+    margin-block: 0 40px;
+    padding : 10px;
+    font-size: 16px;
+    width : 300px;
+    border : none;
+    border-radius: 5px;
+    background-color : hsl(189, 41%, 97%);
+    text-align: right;
+    cursor: pointer;
+    font-family: 'Space Mono',sans-serif;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    font-size: 18px;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.inputbill > input:focus {
+    outline: none;
+}
+
+.inputbill > img {
+    position: absolute;
+    top : 15px;
+    left : 15px;
+}
+
+.btns {
+    display : grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap : 15px;
+    margin-bottom: 40px;
+}
+
+.btns > button {
+    padding : 10px;
+    border: none;
+    border-radius: 5px;
+    background-color : hsl(183, 100%, 15%);
+    color : #fff;
+    font-size: 20px;
+    font-family: 'Space Mono',sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.btns >button.active {
+    background-color: hsl(185, 41%, 84%);
+    color : hsl(183, 100%, 15%);
+}
+
+
+.btns > input {
+    border : none;
+    padding : 10px;
+    background-color: hsl(189, 41%, 97%);
+    border-radius: 5px;
+}
+
+.people {
+    position: relative;
+}
+
+.people > input {
+    margin-block: 10px 40px;
+    padding : 10px;
+    font-size: 16px;
+    width : 300px;
+    border : none;
+    border-radius: 5px;
+    background-color : hsl(189, 41%, 97%);
+    text-align: right;
+    cursor: pointer;
+    font-family: 'Space Mono',sans-serif;
+    font-weight: 700;
+    color: hsl(183, 100%, 15%);
+    font-size: 18px;
+}
+.people > input:focus{
+   outline: none;
+}
+
+.people > img {
+    position: absolute;
+    top : 20px;
+    left : 20px;
+}
+
+.second{
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 20px;
+    padding-block : 50px 20px;
+    padding-inline : 20px;
+}
+
+.amount {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.amount > p{
+    font-size: 20px;
+    font-family: 'Space Mono',sans-serif;
+    color : #fff;
+    font-weight: 700;
+}
+
+.amount > p > span {
+    opacity: 0.5;
+}
+
+.amount > div {
+    font-size: 30px;
+    font-family: 'Space Mono',sans-serif;
+    color : hsl(184, 14%, 56%);
+    font-weight: 700;
+}
+
+.reset {
+    padding : 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(184, 14%, 56%);
+    font-size: 16px;
+    color : hsl(183, 100%, 15%);
+    font-weight: 700;
+    width : 280px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+@media screen and (min-width : 1200px) {
+    .mainContainer {
+        display: flex;
+        width: 920px;
+        height : 490px;
+        margin : 0 auto;
+    }
+
+    .first {
+        width: 50%;
+    }
+
+    .second {
+        width : 50%;
+        margin-block : 35px;
+        margin-right: 35px;
+        padding-block : 50px 20px;
+        padding-inline : 20px;
+        position: relative;
+    }
+
+    .amount {
+        padding-inline : 40px;
+    }
+
+    .reset {
+        position: absolute;
+        bottom: 40px;
+        left : 40px;
+        width : 355px;
+        margin :  0 auto;
+    }
+
+    .inputbill > input {
+        width : 379px;
+    }
+
+    .people > input {
+        position: relative;
+        width : 379px;
+        bottom : 20px;
+    }
+
+    .people > img {
+        position: absolute;
+        top : 7px;
+    }
+
+    .btns {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 0;
+    }
+
+    .btn {
+        width: 115px;
+    }
+
+    .btns > input {
+        width : 95px;
+    }
+} 
