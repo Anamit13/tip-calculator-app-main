@@ -26,13 +26,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss1.PNG)
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss2.PNG)
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss3.PNG)
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss4.PNG)
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss5.PNG)
+![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/Screenshot%20(6).png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [GitHub Repo](https://github.com/Anamit13/tip-calculator-app-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -52,8 +55,6 @@ Users should be able to:
 ### What I learned
 
 In this project I had learned many things in HTML, CSS and JavaScript like some properties of CSS for correct positioning of any element and functions of JavaScript.
-
-
 
 ```html
 <p>Total <br/> <span>/ person</span></p>
@@ -92,8 +93,8 @@ In this project I came to know various different techniques in CSS by which we c
 - [W3Schools](https://www.w3schools.com/js/) - This helped me to check the different functions of JavaScript
 
 ## Author
-
-- Website - [Anannya Mital](https://www.linkedin.com/in/anannya-mittal-520a721a0/)
+- GitHub - [Anamit13](https://github.com/Anamit13)
+- LinkedIn - [Anannya Mital](https://www.linkedin.com/in/anannya-mittal-520a721a0/)
 
 ## Acknowledgments
 
