@@ -27,9 +27,13 @@ Users should be able to:
 ### Screenshot
 
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss1.PNG)
+<br><br>
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss2.PNG)
+<br><br>
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss3.PNG)
+<br><br>
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss4.PNG)
+<br><br>
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/ss5.PNG)
 ![](https://github.com/Anamit13/tip-calculator-app-main/blob/main/Screenshot%20(6).png)
 
